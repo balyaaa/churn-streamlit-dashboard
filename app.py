@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load model pipeline
-model = joblib.load("churn_model_pipeline.joblib")
+model = joblib.load("churn_model_pipeline_v2.joblib")
 
 st.set_page_config(page_title="Customer Churn Prediction Dashboard", layout="wide")
 st.title("🔍 Customer Churn Prediction Dashboard")
